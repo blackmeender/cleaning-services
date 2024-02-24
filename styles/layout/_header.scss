@@ -1,0 +1,89 @@
+.header {
+
+    &__top-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__top {
+        display: flex;
+        background-color: #EFEFEF;
+        height: 85px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__top-city {
+        display: flex;
+        justify-content: center;
+        width: 143px;
+    }
+}
+
+
+
+
+
+.city {
+    margin: 33px 0px;
+    font-style: Montserrat;
+    font-size: 14px;
+    line-height: 21px;
+
+}
+
+.header__top-phone {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.phone {
+
+    margin: 28px 0px;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 24px;
+    color: #041726;
+    display: flex;
+    justify-content: center;
+
+}
+
+.header__top-link {
+    width: 110px;
+    margin: 28px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.link__whats {
+    display: block;
+}
+
+.link__telegram {
+    display: block;
+}
+
+.link__viber {
+    display: block;
+}
+
+.header__top-request {
+    display: flex;
+    gap: 10px;
+}
+
+.call {
+    display: block;
+    background-color: #63B32E;
+    width: 180px;
+    height: 40px;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #EFEFEF;
+    justify-self: center;
+}

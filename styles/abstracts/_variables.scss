@@ -1,0 +1,54 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+
+
+
+
+/// Regular font family
+/// @type List
+$text-font-stack: 'Montserrat', 'Arial', sans-serif;
+
+
+/// Copy text color
+/// @type Color
+$text-color: #041726;
+
+// primary colors
+$primary-white: white;
+$primary-green: #63B32E;
+$primary-yellow: #FFDD00;
+
+
+
+// secondary colors
+// $secondary-light-blue: #8ae1e7 !default;
+
+
+// // error state in comments form
+// $error-red: #D22D2D;
+
+
+// /// Container's maximum width
+// /// @type Length
+// $max-width: 1280px !default;
+// $max-height: 1024px !default;
+
+
+// /// Breakpoints map
+// /// @prop {String} keys - Keys are identifiers mapped to a given length
+// /// @prop {Map} values - Values are actual breakpoints expressed in pixels
+// $breakpoints: (
+//   'small': 320px,
+//   'medium': 768px,
+//   'large': 1024px,
+// ) !default;
+
+
+
+/// Relative or absolute URL where all assets are served from
+/// @type String
+/// @example scss - When using a CDN
+///   $base-url: 'https://cdn.example.com/assets/';
+$base-url: '/assets/' !default;

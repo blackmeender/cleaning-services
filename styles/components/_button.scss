@@ -1,0 +1,15 @@
+.btn {
+    padding: 10px 17px;
+    border-radius: 5px;
+
+    &--green {
+        background-color: $primary-green;
+        color: $primary-white;
+        border: none;
+    }
+
+    &--yellow {
+        border: 2px solid $primary-yellow;
+    }
+
+}
