@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="/styles/main.css">
 </head>
 
@@ -14,12 +19,26 @@
         <div class="header__top">
             <div class="container">
                 <div class="header__top-wrapper">
-                    <div class="header__top-city">
-                        <p class="p p--sm">Ваш город: Тюмень</p>
-                    </div>
+                    <details class="header__top-city">
+
+                        <summary class="p p--sm">Ваш город:
+                            <svg width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M3.72599 5.52308C3.75657 5.5675 3.79749 5.60381 3.84522 5.6289C3.89296 5.65398 3.94607 5.66709 3.99999 5.66709C4.05392 5.66709 4.10703 5.65398 4.15476 5.6289C4.2025 5.60381 4.24341 5.5675 4.27399 5.52308L7.27399 1.18975C7.30872 1.13977 7.32908 1.08123 7.33287 1.02048C7.33666 0.959741 7.32373 0.899122 7.29549 0.845213C7.26725 0.791303 7.22477 0.746164 7.17267 0.714701C7.12058 0.683237 7.06085 0.666653 6.99999 0.666748H0.999994C0.939275 0.666999 0.879774 0.683797 0.827888 0.715336C0.776002 0.746875 0.733695 0.791961 0.705517 0.845746C0.677339 0.899531 0.664356 0.95998 0.667964 1.02059C0.671572 1.0812 0.691634 1.13969 0.725994 1.18975L3.72599 5.52308Z"
+                                    fill="#041726" />
+                            </svg>
+                        </summary>
+                        <div class="city__drop">
+                            <label class="city__drop-name">Москва</label>
+                            <label class="city__drop-name">Самара</label>
+                            <label class="city__drop-name">Хабаровск</label>
+                        </div>
+                    </details>
                     <div class="header__top-phone">
                         <img src="assets/img/phone.svg" alt="phone">
                         <p>8 (3452) 57-67-87</p>
+                    </div>
+                    <div class="header__top-separator">
                     </div>
                     <div class="header__top-link">
                         <img src="/assets/img/whatsapp.svg" alt="" class="link__whats">
@@ -34,7 +53,16 @@
             </div>
         </div>
         <div class="header__menu">
-            <div class="header__menu-items">
+            <div class="container">
+                <ul class="header__menu-item">
+                    <li>Главная</li>
+                    <li>Услуги и цены</li>
+                    <li>О компании</li>
+                    <li>Акции</li>
+                    <li>Портфолио</li>
+                    <li>Отзывы</li>
+                    <li>Контакты</li>
+                </ul>
             </div>
         </div>
         </div>
