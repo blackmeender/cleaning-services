@@ -602,6 +602,11 @@ span {
   color: #041726;
 }
 
+li {
+  font-size: 14px;
+  line-height: 21px;
+}
+
 .container {
   width: 1180px;
   margin: 0 auto;
@@ -626,7 +631,13 @@ span {
   margin: 31px 0;
   margin-right: 65px;
   position: relative;
-  marker: none;
+}
+.header__top-city summary::-webkit-details-marker {
+  display: none;
+}
+.header__top-city summary {
+  list-style: none;
+  list-style-type: none;
 }
 .header__top-phone {
   display: flex;
@@ -680,9 +691,4 @@ span {
 }
 .btn--yellow {
   border: 2px solid #FFDD00;
-}
-
-li {
-  font-size: 14px;
-  line-height: 21px;
 }/*# sourceMappingURL=main.css.map */

@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main page</title>
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
@@ -19,6 +18,7 @@
         <div class="header__top">
             <div class="container">
                 <div class="header__top-wrapper">
+                    <!-- дз переделать на select  option -->
                     <details class="header__top-city">
 
                         <summary class="p p--sm">Ваш город:
@@ -52,6 +52,7 @@
                 </div>
             </div>
         </div>
+        <!-- вынести в отдельный компонент для переиспользования на других страницах -->
         <div class="header__menu">
             <div class="container">
                 <ul class="header__menu-item">
@@ -67,6 +68,35 @@
         </div>
         </div>
     </header>
+    <div class="intro">
+        <div class="container">
+                <div class="intro__book">
+                    <h1>Комплексная уборка квартир, домов и офисов в Тюмени</h1>
+    
+    
+                    <!-- дз стеделать черточку через псевдо элемент -->
+                    <!-- 
+    
+                        p:before {
+                            content: '';
+                            height: 1px;
+                            width: 45px;
+                            background-color: $text-color;
+                            margin-right:
+                        }
+    
+                     -->
+                    <div>
+    
+                    </div>
+                    <p>::before Оказываем полный спектр клининговых услуг. От мойки люстр до высотных работ.</p>
+    
+                </div>
+                <div class="intro__picture">
+    
+                </div>
+        </div>
+    </div>
 </body>
 
 </html>

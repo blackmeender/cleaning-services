@@ -21,7 +21,15 @@
         margin: 31px 0;
         margin-right: 65px;
         position: relative;
-        marker: none;
+    }
+
+    &__top-city summary::-webkit-details-marker {
+        display: none;
+    }
+
+    &__top-city summary {
+        list-style: none;
+        list-style-type: none;
     }
 
     &__top-phone {
@@ -35,7 +43,7 @@
     &__top-separator {
         width: 1px;
         height: 35px;
-        background-color: #D8D8D8;
+        background-color: $secondary-grey;
         margin-right: 25px;
     }
 
@@ -55,7 +63,7 @@
     }
 
     &__menu {
-        border-bottom: 1px solid #D8D8D8;
+        border-bottom: 1px solid $secondary-grey;
     }
 
     &__menu-item {
@@ -68,46 +76,3 @@
 .city__drop {
     position: absolute;
 }
-
-// .city {
-//     margin: 33px 0px;
-//     font-style: Montserrat;
-//     font-size: 14px;
-//     line-height: 21px;
-
-// }
-
-// .phone {
-//     margin: 28px 0px;
-//     box-sizing: border-box;
-//     font-size: 16px;
-//     line-height: 24px;
-//     color: #041726;
-//     display: flex;
-//     justify-content: center;
-
-// }
-
-// .link__whats {
-//     display: block;
-// }
-
-// .link__telegram {
-//     display: block;
-// }
-
-// .link__viber {
-//     display: block;
-// }
-
-// .call {
-//     display: block;
-//     background-color: #63B32E;
-//     width: 180px;
-//     height: 40px;
-//     box-sizing: border-box;
-//     padding: 5px 10px;
-//     text-decoration: none;
-//     color: #EFEFEF;
-//     justify-self: center;
-// }
