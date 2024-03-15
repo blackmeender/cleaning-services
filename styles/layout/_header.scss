@@ -20,7 +20,6 @@
         width: 143px;
         margin: 31px 0;
         margin-right: 65px;
-        position: relative;
     }
 
     &__top-city summary::-webkit-details-marker {
@@ -74,5 +73,6 @@
 }
 
 .city__drop {
-    position: absolute;
+    background: none;
+    border: none;
 }
