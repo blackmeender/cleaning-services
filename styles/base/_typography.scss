@@ -10,8 +10,8 @@ body {
 h1,
 .h1 {
   font-family: $text-font-stack;
-  font-size: 40px;
-  line-height: 48px;
+  font-size: 34px;
+  line-height: 41px;
   font-weight: bold;
   color: $text-color;
 }
@@ -71,6 +71,14 @@ p,
   font-family: $text-font-stack;
   font-size: 14px;
   line-height: 16px;
+  font-weight: normal;
+  color: $text-color;
+}
+
+.p--bg {
+  font-family: $text-font-stack;
+  font-size: 16px;
+  line-height: 20px;
   font-weight: normal;
   color: $text-color;
 }

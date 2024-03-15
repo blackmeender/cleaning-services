@@ -16,7 +16,7 @@
 
     &__top-city {
         display: flex;
-        justify-content: center;
+        // justify-content: center;
         width: 143px;
         margin: 31px 0;
         margin-right: 65px;
@@ -72,7 +72,30 @@
     }
 }
 
+.city__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .city__drop {
     background: none;
     border: none;
+    font-family: $text-font-stack;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: bold;
+    text-decoration: underline;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+
+}
+
+.city__drop::after {
+    content: url(/assets/img/arrow.svg);
+    display: block;
+    width: 7px;
+    height: 5px;
 }
