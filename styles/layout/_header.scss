@@ -90,12 +90,18 @@
     -webkit-appearance: none;
     -moz-appearance: none;
     outline: none;
-
 }
 
-.city__drop::after {
-    content: url(/assets/img/arrow.svg);
-    display: block;
-    width: 7px;
-    height: 5px;
+.city__label {
+    display: flex;
+    width: fit-content;
+    position: relative;
+
+    &::after {
+        content: url("../assets/img/arrow.svg");
+        width: 7px;
+        height: 5px;
+        position: absolute;
+        right: 10px;
+    }
 }

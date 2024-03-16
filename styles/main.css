@@ -700,33 +700,42 @@ li {
   outline: none;
 }
 
-.city__drop::after {
-  content: url(/assets/img/arrow.svg);
-  display: block;
+.city__label {
+  display: flex;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: relative;
+}
+.city__label::after {
+  content: url("../assets/img/arrow.svg");
   width: 7px;
   height: 5px;
+  position: absolute;
+  right: 10px;
 }
 
 .intro__wrapper {
   display: flex;
+  gap: 81px;
 }
 .intro__book {
-  margin-right: 81px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  width: 509px;
 }
 .intro__book-header {
   margin-bottom: 25px;
-  width: 509px;
 }
 .intro__book-text {
   width: 409px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
-.intro__book-text:before {
+.intro__book-text::before {
   content: "";
-  display: block;
   height: 1px;
   width: 48px;
   background-color: #041726;

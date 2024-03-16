@@ -1,39 +1,40 @@
 .intro {
     &__wrapper {
         display: flex;
-
+        gap: 81px;
     }
 
     &__book {
-        margin-right: 81px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
+        width: 509px;
+    }
 
-        &-header {
-            margin-bottom: 25px;
-            width: 509px;
-        }
+    &__book-header {
+        margin-bottom: 25px;
+    }
 
-        &-text {
-            width: 409px;
+    &__book-text {
+        width: 409px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
 
-        }
+    &__book-text::before {
+        content: "";
+        height: 1px;
+        width: 48px;
+        background-color: $text-color;
+        margin-right: 10px;
 
-        &-text:before {
-            content: "";
-            display: block;
-            height: 1px;
-            width: 48px;
-            background-color: $text-color;
-            margin-right: 10px;
-        }
+    }
 
-        &-btn {
-            display: flex;
-            gap: 15px;
-            margin-top: 50px;
-        }
+    &__book-btn {
+        display: flex;
+        gap: 15px;
+        margin-top: 50px;
     }
 }
